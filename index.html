@@ -29,13 +29,16 @@
         height: 250px;
         width: 414px;
       }
+      .curve{
+        border-radius: 50px;
+      }
     </style>
   </head>
 
   <body>
     <!-- Semantic Elements -->
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-danger navbar-dark brandBg">
+    <nav class="navbar navbar-expand-lg bg-primary navbar-dark brandBg">
       <div class="container">
         <a class="navbar-brand" href="#"><b>SkillUp Academy</b></a>
         <button
@@ -63,19 +66,19 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="bg-info py-5 text-center">
+    <header class="bg-dark text-white py-5 text-center">
       <div class="container-fluid">
         <h1 class="display-4"><b>SkillUp Academy</b></h1>
-        <p class="lead text-muted">
+        <p class="lead text-white">
           <b>(Master the Skills That Shape Your Future)</b>
         </p>
-        <a href="#" class="btn text-white btn-lg bg-danger">Enroll here</a>
+        <a href="#" class="btn text-white btn-lg bg-primary">Enroll here</a>
       </div>
     </header>
 
     <!-- Services Section -->
     <section class="container my-5">
-      <h2 class="text-center mb-4">Courses</h2>
+      <h2 class="text-center bg-primary text-white mb-4">Courses</h2>
       <main class="row">
         <div class="col-md-4">
           <div class="card shadow-sm">
@@ -135,8 +138,50 @@
       </main>
     </section>
 
+
     <!-- Contact Us Form -->
-    <section id="contact" class="bg-light py-5">
+     <section class="py-5 mb-4 curve mt-4 bg-dark" id="contact">
+      <div class="container-fluid">
+        <h2
+          class="page-section-heading text-center bg-dark text-uppercase text-white mb-0"
+        >
+          Contact
+        </h2>
+        <!-- Icon Divider-->
+        <div class="divider-custom">
+          <div class="divider-custom-line"></div>
+          <div class="divider-custom-icon text-white">
+            <i class="fas fa-star"></i>
+          </div>
+          <div class="divider-custom-line"></div>
+        </div>
+        <form class="mt-4">
+          <div class="row mb-3">
+            <div class="col-md-4">
+              <input type="text" class="form-control" placeholder="Your Name" />
+            </div>
+            <div class="col-md-8">
+              <input
+                type="email"
+                class="form-control"
+                placeholder="Your Email"
+              />
+            </div>
+          </div>
+          <div class="mb-3">
+            <textarea
+              class="form-control"
+              rows="4"
+              placeholder="Your Message"
+            ></textarea>
+          </div>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- <section id="contact" class="bg-light py-5">
       <div class="container">
         <h2>Contact Us</h2>
         <form>
@@ -155,10 +200,10 @@
           <button type="submit" class="btn btn-primary">Send</button>
         </form>
       </div>
-    </section>
+    </section> -->
 
     <!-- Footer -->
-    <footer class="text-center bg-danger py-3">
+    <footer class="text-center bg-primary py-3">
       <p class="mb-1">&copy; <b>SkillUp Academy. All rights reserved.</b></p>
     </footer>
 
