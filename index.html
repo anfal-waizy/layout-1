@@ -26,10 +26,10 @@
       }
       .img-fix {
         object-fit: cover;
-        height: 250px;
+        height: 200px;
         width: 414px;
       }
-      .curve{
+      .curve {
         border-radius: 50px;
       }
     </style>
@@ -38,36 +38,35 @@
   <body>
     <!-- Semantic Elements -->
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg bg-primary navbar-dark brandBg">
-      <div class="container">
-        <a class="navbar-brand" href="#"><b>SkillUp Academy</b></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#myNavbar"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="myNavbar">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Courses</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#">Contact</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <header
+      class="d-flex flex-wrap justify-content-center py-3 mb-4 bg-primary border-bottom"
+    >
+      <a
+        href="/"
+        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none text-white"
+      >
+        <svg class="bi me-2" width="40" height="32" aria-hidden="true">
+          <use xlink:href="#bootstrap"></use>
+        </svg>
+        <span class="fs-4"><b>SkillUp Academy</b></span>
+      </a>
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="#home" class="nav-link active" aria-current="page">Home</a>
+        </li>
+        <li class="nav-item"><a href="#about" class="nav-link active">About</a></li>
+        <li class="nav-item">
+          <a href="#courses" class="nav-link active">Courses</a>
+        </li>
+        <li class="nav-item">
+          <a href="#contact" class="nav-link active">Contacts</a>
+        </li>
+      </ul>
+    </header>
 
     <!-- Hero Section -->
-    <header class="bg-dark text-white py-5 text-center">
-      <div class="container-fluid">
+    <header class="bg-dark my-5 text-white py-5 text-center">
+      <div class="container">
         <h1 class="display-4"><b>SkillUp Academy</b></h1>
         <p class="lead text-white">
           <b>(Master the Skills That Shape Your Future)</b>
@@ -76,11 +75,105 @@
       </div>
     </header>
 
-    <!-- Services Section -->
-    <section class="container my-5">
-      <h2 class="text-center bg-primary text-white mb-4">Courses</h2>
+    <!-- Home Section -->
+    <!-- Home Section -->
+    <section id="home" class="container-fluid bg-dark text-white mt-5">
+      <h2 class="bg-dark">Home</h2>
+      <p>
+        Welcome to <strong>Crafting Digital Excellence</strong> – your digital
+        transformation partner. We empower businesses with strategic,
+        customized, and user-focused digital solutions that deliver real-world
+        results.
+      </p>
+      <p>
+        At <strong>SkillUp Academy</strong>, our mission is clear –
+        <em>"Master the Skills That Shape Your Future."</em> We are committed to
+        equipping individuals and businesses with the essential digital skills
+        needed to thrive in today’s competitive environment.
+      </p>
+
+      <h4>🌟 What We Offer</h4>
+      <ul>
+        <li>
+          Website design & development with a focus on performance and usability
+        </li>
+        <li>Digital marketing strategies tailored to your goals</li>
+        <li>
+          Brand identity and visual storytelling for better online presence
+        </li>
+        <li>Mobile-friendly, responsive, and SEO-optimized web solutions</li>
+      </ul>
+
+      <h4>🌸 Our Approach</h4>
+      <p>
+        We follow a consultative approach: listen to your needs, analyze your
+        market, and build custom experiences that resonate with your audience.
+      </p>
+
+      <h4>💫 Client-Centric Values</h4>
+      <ul>
+        <li>Transparent Communication</li>
+        <li>On-Time Delivery</li>
+        <li>Continuous Support & Maintenance</li>
+      </ul>
+
+      <p>
+        Let’s collaborate to turn your vision into a reality.
+        <a href="#">Start your project today!</a>
+      </p>
+    </section>
+
+    <!-- About Section -->
+    <!-- About Us Section -->
+    <section id="about" class="container-fluid bg-dark text-white mt-5">
+      <h2 class="bg-dark">About Us</h2>
+      <p>
+        We're a passionate team of creatives, strategists, and developers
+        dedicated to helping you stand out in a crowded digital world. Since our
+        inception, <strong>SkillUp Academy</strong> has been committed to
+        crafting bold and effective digital experiences that empower individuals
+        and businesses alike.
+      </p>
+
+      <h4>🧠 Who We Are</h4>
+      <ul>
+        <li>
+          Experienced professionals with backgrounds in design, tech, and
+          marketing
+        </li>
+        <li>
+          Problem solvers who love challenges and bring fresh ideas to the table
+        </li>
+        <li>
+          Innovators who stay updated with the latest trends and technologies
+        </li>
+      </ul>
+
+      <h4>📝 Our Core Beliefs</h4>
+      <ul>
+        <li><strong>Quality:</strong> We never compromise on excellence</li>
+        <li><strong>Innovation:</strong> We embrace change and think ahead</li>
+        <li><strong>Integrity:</strong> We work honestly and transparently</li>
+      </ul>
+
+      <h4>💬 Our Motto</h4>
+      <p>
+        <em
+          >"Design with purpose. Develop with passion. Deliver with pride."</em
+        >
+      </p>
+
+      <p>
+        At <strong>SkillUp Academy</strong>, we believe in crafting impactful
+        digital journeys, one project at a time.
+      </p>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="container-fluid my-5">
+      <h1 class="text-center bg-primary text-white mb-4">Courses</h1>
       <main class="row">
-        <div class="col-md-4">
+        <div class="col-lg-4 mb-4">
           <div class="card shadow-sm">
             <img
               class="img-fix"
@@ -99,7 +192,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-lg-4">
           <div class="card shadow-sm">
             <img
               class="img-fix"
@@ -117,7 +210,8 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+
+        <div class="col-lg-4">
           <div class="card shadow-sm">
             <img
               class="img-fix"
@@ -135,12 +229,70 @@
             </div>
           </div>
         </div>
+
+        <div class="col-lg-4">
+          <div class="card shadow-sm">
+            <img
+              class="img-fix"
+              src="img/Canva.jpg"
+              class="card-img-top"
+              alt="SEO"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title"><b>CANVA</b></h5>
+              <p class="card-text">
+                Design eye-catching graphics in minutes using Canva’s easy
+                tools. Ideal for entrepreneurs, students, and content creators.
+              </p>
+              <a href="#" class="btn btn-outline-danger">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card shadow-sm">
+            <img
+              class="img-fix"
+              src="img/wordpress-img.webp"
+              class="card-img-top"
+              alt="SEO"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title"><b>WORDPRESS</b></h5>
+              <p class="card-text">
+                Master WordPress from setup to launch and manage your site with
+                confidence. Ideal for beginners, freelancers, and digital
+                marketers
+              </p>
+              <a href="#" class="btn btn-outline-danger">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card shadow-sm">
+            <img
+              class="img-fix"
+              src="img/chatgpt-img.jpg"
+              class="card-img-top"
+              alt="SEO"
+            />
+            <div class="card-body text-center">
+              <h5 class="card-title"><b>chatgpt</b></h5>
+              <p class="card-text">
+                Master ChatGPT for writing, problem-solving, and business
+                applications. Discover prompt techniques to get accurate,
+                creative, and useful results.
+              </p>
+              <a href="#" class="btn btn-outline-danger">Learn More</a>
+            </div>
+          </div>
+        </div>
       </main>
     </section>
 
-
     <!-- Contact Us Form -->
-     <section class="py-5 mb-4 curve mt-4 bg-dark" id="contact">
+    <section class="py-5 mb-4 curve mt-4 bg-dark" id="contact">
       <div class="container-fluid">
         <h2
           class="page-section-heading text-center bg-dark text-uppercase text-white mb-0"
@@ -157,7 +309,7 @@
         </div>
         <form class="mt-4">
           <div class="row mb-3">
-            <div class="col-md-4">
+            <div class="col-lg-4">
               <input type="text" class="form-control" placeholder="Your Name" />
             </div>
             <div class="col-md-8">
